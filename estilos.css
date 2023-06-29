@@ -1,0 +1,333 @@
+* {
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #FF8A5B;  /* fallback for old browsers */
+    background:
+        linear-gradient(to top, #f85b00e3, #ff895ba1),
+        url(img/Fondo.svg);
+    background-size: 50%;
+}
+
+figure {
+    margin: 0;
+    padding: 0;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+a{
+    text-decoration: none;
+}
+ul{  
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+h1{
+    font-size: 58px;
+    font-family: 'Roboto Slab', serif;
+}
+h2{
+    font-size: 40px;
+    font-family: 'Roboto Slab', serif;
+    color: white;
+}
+p{
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 12px;
+}
+.navflex{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav{
+    background-color: white;
+    position: fixed;
+    width: 1176px;
+    border-radius: 40px;
+    margin-top: 1%;
+    z-index: 2000;
+    box-shadow: 0px 0px 10px #313131;
+}
+nav ul{
+    display: flex; 
+    width: 450px;
+    justify-content: space-around;
+    align-items: center;
+}
+nav p{
+    font-size: 30px;
+}
+
+#nosotros{
+    background: url(img/chef.png) no-repeat 800px 250px;
+    background-size: 400px;
+    height: 500px;
+    padding-top: 300px;
+    padding-bottom: 330px;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+}
+header p{
+    font-size: 24px;
+    padding-bottom: 30px;
+}
+.flexinfo {
+    display: flex;
+}
+
+.info,
+figure {
+    width: 800px;
+}
+.info{
+    padding: 0px 40px 0px 40px; 
+    background-color: white;
+    border-radius: 40px;
+    box-shadow: 0px 0px 10px #313131;
+}
+
+.ctanav{
+    width: 100px;
+    height: 45px;
+    line-height: 40px;
+    background-color: rgba(255, 255, 255, 0);
+    color: #FF8A5B;
+    border: 2px solid #FF8A5B;
+    display: block;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 20px;
+}
+.ctanav:hover{
+    background-color: #FF8A5B;
+    color: white;
+}
+
+.ordenar{
+    width: 150px;
+    height: 50px;
+    line-height: 40px;
+    color: #FF8A5B;
+    border: 3px solid #FF8A5B;
+    display: block;
+    text-align: center;
+    font-size: 20px;
+    border-radius: 60px;
+    margin: 0 auto;
+}
+
+.ordenar:hover{
+    background-color: #FF8A5B;
+    color: white;
+}
+
+/*-------------Platos del dia-------------*/
+#Platos{
+    padding-top: 150px; 
+    padding-bottom: 100px;
+}
+.platosflex{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+    padding-bottom: 10px;
+}
+.tarjeta{
+    width: 340px;
+    background-color: white;
+    padding: 30px 30px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px #313131;
+}
+.link-img{
+    display: block;
+    width: 280px;
+    height: 280px;
+    border-radius: 20px;
+}
+.pic1{
+    background:url(portfolio/Cassoulet.jpg) no-repeat center scroll ;
+    background-size: cover;
+}
+.pic1:hover{
+    background:url(portfolio/Cassoulet-hover.jpg) no-repeat center scroll ;
+    background-size: cover;
+}
+.pic2{
+    background:url(portfolio/Ratatouille.jpg) no-repeat center scroll ;
+    background-size: cover;
+}
+.pic2:hover{
+    background:url(portfolio/Ratatouille-hover.jpg) no-repeat center scroll ;
+    background-size: cover;
+}
+.pic3{
+    background:url(portfolio/Boeuf.jpg) no-repeat center scroll ;
+    background-size: cover;
+}
+.pic3:hover{
+    background:url(portfolio/Boeuf-hover.jpg) no-repeat center scroll ;
+    background-size: cover;
+}
+.pic4{
+    background:url(portfolio/Blanquette.jpg) no-repeat center scroll ;
+    background-size: cover;
+}
+.pic4:hover{
+    background:url(portfolio/Blanquette-hover.jpg) no-repeat center scroll ;
+    background-size: cover;
+}
+.pic5{
+    background:url(portfolio/Escargots.jpg) no-repeat center scroll ;
+    background-size: cover;
+}
+.pic5:hover{
+    background:url(portfolio/Escargots-hover.jpg) no-repeat center scroll ;
+    background-size: cover;
+}
+.pic6{
+    background:url(portfolio/Quiche.jpg) no-repeat center scroll ;
+    background-size: cover;
+}
+.pic6:hover{
+    background:url(portfolio/Quiche-hover.jpg) no-repeat center scroll ;
+    background-size: cover;
+}
+.platosText p{
+    font-size: 20px;
+    color: white;
+}
+
+#Galeria{
+    padding-top: 150px;
+    padding-bottom: 100px; 
+    font-size: 20px;
+}
+.slideshow{
+    width: 1176px;
+    margin: 0px auto;
+    padding: 20px 20px 40px 20px;
+    background-color: white;
+    border-radius: 40px;
+    box-shadow: 0px 0px 10px #313131;
+}
+/* Hide the images by default */
+.mySlides {
+    display: none;
+  }
+  
+  /* Add a pointer when hovering over the thumbnail images */
+  .cursor {
+    cursor: pointer;
+  }
+  
+  /* Next & previous buttons */
+  .prev,
+  .next {
+    cursor: pointer;
+    position: relative;
+    top: 40%;
+    width: auto;
+    margin-top: -50px;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    user-select: none;
+    -webkit-user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover,
+  .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: black;
+    font-size: 12px;
+    padding-top: 0px;
+    padding-bottom: 8px;
+    position: relative;
+    top: 0;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Four columns side by side */
+  .column {
+    float: left;
+    width: 25%;
+  }
+  
+  /* Add a transparency effect for thumnbail images */
+  .demo {
+    opacity: 0.6;
+  }
+  
+  .active,
+  .demo:hover {
+    opacity: 1;
+  }
+
+#Contacto{
+    height: 500px;
+    padding-top: 100px;
+    padding-bottom: 200px;
+    font-size: 20px;
+}
+.conflex{
+    display: flex;
+    justify-content: space-around;
+}
+#Contacto a{
+    line-height: 45px;
+    font-size: 30px;
+    color: #FF8A5B;
+}
+#Contacto a:hover{
+    color: #313131;
+}
+.ventanaContacto{
+    background-color: white;
+    padding: 40px;
+    border-radius: 40px;
+    box-shadow: 0px 0px 10px #313131;
+}
+.mapa{
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+footer{
+    padding-top: 100px;
+    margin-top: 10%;
+    color: white;
+}
+

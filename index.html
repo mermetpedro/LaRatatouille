@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Restaurante La Ratatouille</title>
+    <link rel="shortcut icon" type="image/jpg" href="img/La_ratatouille_icon2.svg"/>
+    <!-- normalize.css -->
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Slab:wght@600;900&display=swap" rel="stylesheet">
+    <!-- estilos de diseño personalizados -->
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body class="container">
+    <nav>
+        <div class="navflex">
+            <p class="logo">
+                <img src="img/La_ratatouille_sign.svg" alt="logo" height="60">
+            </p>
+            <ul>
+                <li><a class="ctanav" href="#">Inicio</a></li>
+                <li><a class="ctanav" href="#Platos">Platos</a></li>
+                <li><a class="ctanav" href="#Galeria">Galeria</a></li>
+                <li><a class="ctanav" href="#Contacto">Contacto</a></li>
+            </ul>
+        </div>
+    </nav>
+
+
+   
+    <header id="nosotros">
+            <div class="flexinfo">
+                <div class="info">
+                    <h1 class="logo">Comida En Serio</h1>
+                    <p>En La Ratatouille nos comprometemos con le elaboracion de comida francesa de la mas alta calidad, brindando una experiencia de sabor familiar pero única.</p>
+                </div>
+    </header>
+
+    <section id="Platos">
+        <div class="platosText">
+            <h2>Menú del día</h2>
+            <p>
+                Nuestro portal web te permite ordenar comida de nuestro menú seleccionado y hacer reservaciones online
+            </p>
+        </div>
+        <div class="f-carousel" id="myCarousel">
+            <div class="f-carousel__slide">
+                <div class="platosflex">
+                    <div class="tarjeta">
+                        <a class="link-img pic1" href="#"></a>
+                        <h3 style="text-align:center">Cassoulet</h3>
+                        <a href="#" class="ordenar">Ordenar</a>
+                    </div>
+                    <div class="tarjeta">
+                        <a class="link-img pic2" href="#"></a>
+                        <h3 style="text-align:center">Ratatouille</h3>
+                        <a href="#" class="ordenar">Ordenar</a>
+                    </div>
+                    <div class="tarjeta">
+                        <a class="link-img pic3" href="#"></a>
+                        <h3 style="text-align:center">Boeuf Bourguingnon</h3>
+                        <a href="#" class="ordenar">Ordenar</a>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="f-carousel__slide">
+                <div class="platosflex">
+                    <div class="tarjeta">
+                        <a class="link-img pic4" href="#"></a>
+                        <h3 style="text-align:center">Blanquette de veau</h3>
+                        <a href="#" class="ordenar">Ordenar</a>
+                    </div>
+                    <div class="tarjeta">
+                        <a class="link-img pic5" href="#"></a>
+                        <h3 style="text-align:center">Escargots de bourgogne</h3>
+                        <a href="#" class="ordenar">Ordenar</a>
+                    </div>
+                    <div class="tarjeta">
+                        <a class="link-img pic6" href="#"></a>
+                        <h3 style="text-align:center">Quiche lorraine</h3>
+                        <a href="#" class="ordenar">Ordenar</a>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+    <section id="Galeria">
+        <h2>Galería</h2>
+        <div class="slideshow">
+      <div class="mySlides">
+        <div class="numbertext">1 / 4</div>
+        <a href="img/galeria1.png" target="blank"><img src="img/slider1.jpg" style="width:100%"></a>
+      </div>
+    
+      <div class="mySlides">
+        <div class="numbertext">2 / 4</div>
+        <a href="img/galeria2.jpg" target="blank"><img src="img/slider2.jpg" style="width:100%"></a>
+      </div>
+    
+      <div class="mySlides">
+        <div class="numbertext">3 / 4</div>
+        <a href="img/galeria3.jpg" target="blank"><img src="img/slider3.jpg" style="width:100%"></a>
+      </div>
+    
+      <div class="mySlides">
+        <div class="numbertext">4 / 4</div>
+        <a href="img/galeria4.jpg" target="blank"><img src="img/slider4.jpg" style="width:100%"></a>
+      </div>
+      <a class="prev" onclick="plusSlides(-1)">❮</a>
+      <a class="next" onclick="plusSlides(1)">❯</a>
+              <div class="row">
+                <div class="column">
+                  <img class="demo cursor" src="img/slider1.jpg" style="width:100%" onclick="currentSlide(1)" alt="The Woods">
+                </div>
+                <div class="column">
+                  <img class="demo cursor" src="img/slider2.jpg" style="width:100%" onclick="currentSlide(2)" alt="Cinque Terre">
+                </div>
+                <div class="column">
+                  <img class="demo cursor" src="img/slider3.jpg" style="width:100%" onclick="currentSlide(3)" alt="Mountains and fjords">
+                </div>
+                <div class="column">
+                  <img class="demo cursor" src="img/slider4.jpg" style="width:100%" onclick="currentSlide(4)" alt="Northern Lights">
+                </div>
+        </div>
+    </section>
+
+
+    <section id="Contacto">
+        <h2>Contactanos</h2>
+        <div class="ventanaContacto conflex">
+            <div>
+                <p>Nuestras redes sociales:</p>
+                <ul>
+                    <li><a href="#"><img src="img/Logo_Insta.svg" width="25px" alt="Nuestro Insta"> Instagram</a></li>
+                    <li><a href="#"><img src="img/Logo_Face.svg" width="25px" alt="Nuestro Face"> Facebook</a></li>
+                    <li><a href="#"><img src="img/Logo_Mail.svg" width="25px" alt="Nuestro Face"> Mandanos un mail</a></li>
+                </ul>
+                <p>Contactanos por teléfono:</p>
+                <ul>
+                    <li><p>Fijo: 3456-2345</p></li>
+                    <li><p>Cel: 11 9876-5678</p></li>
+                </ul>
+            </div>
+            <iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3285.4042109836046!2d-58.457578623344155!3d-34.56863745564799!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb5d082164f2b%3A0x861387f778aae125!2sMoldes%201502%2C%20C1426ALT%20CABA!5e0!3m2!1ses!2sar!4v1687981155598!5m2!1ses!2sar" width="500" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></a>
+        </div>
+        
+    </section>
+
+    <footer>
+        <div>
+            <p>Todos los derechos de la marca La Ratatouille pertenecen a LaRata S.A.- copyright 2023</p>
+        </div>
+    </footer>
+
+    <!--plugins-->
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.umd.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.css" />
+
+    <script>
+        const container = document.getElementById("myCarousel");
+        const options = { infinite: true };
+
+        new Carousel(container, options);
+
+    </script>
+
+<script>
+    let slideIndex = 1;
+    showSlides(slideIndex);
+    
+    // Next/previous controls
+    function plusSlides(n) {
+      showSlides(slideIndex += n);
+    }
+    
+    // Thumbnail image controls
+    function currentSlide(n) {
+      showSlides(slideIndex = n);
+    }
+    
+    function showSlides(n) {
+      let i;
+      let slides = document.getElementsByClassName("mySlides");
+      let dots = document.getElementsByClassName("demo");
+      let captionText = document.getElementById("caption");
+      if (n > slides.length) {slideIndex = 1}
+      if (n < 1) {slideIndex = slides.length}
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+      }
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex-1].style.display = "block";
+      dots[slideIndex-1].className += " active";
+      captionText.innerHTML = dots[slideIndex-1].alt;
+    }
+</script>
+
+</body>
+
+</html>
